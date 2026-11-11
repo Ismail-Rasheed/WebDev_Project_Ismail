@@ -1,18 +1,33 @@
 body {
-    background-image: url(https://images.pexels.com/photos/20336862/pexels-photo-20336862.jpeg);
-    background-size: 100%;
     font-family: 'Clarity City', sans-serif ;
 }
+
+#Background {
+    background-image: url(https://images.pexels.com/photos/20336862/pexels-photo-20336862.jpeg);
+    background-size: 100%;
+}
+
+#BackgroundIndex {
+    background-color: rgb(241, 241, 241);
+    background-size: 100%;
+}
+
+#Mount {
+    alt: "Mountains";
+}
+
+
 
 
 h1 {
     color: red;
     text-align: left;
-    background-color: lightcoral;
+    border-color: black;
+    border-radius: 3px;
 }
 
 a {
-    color: lightblue;
+    color: rgb(45, 118, 170);
     text-align: left;
 }
 
@@ -22,7 +37,7 @@ a:hover {
 
 small {
     font-size: small;
-    color: lightblue;
+    color: rgb(45, 118, 170);
 }
 
 p {
@@ -38,5 +53,10 @@ h2 {
 left {
     text-align: center;
 }
+
+div h2{
+    color: rgb(82, 82, 82);
+}
+
 
 
